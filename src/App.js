@@ -69,6 +69,9 @@ export const ResponsiveWrapper = styled.div`
   @media (min-width: 767px) {
     flex-direction: row;
   }
+  @media (max-width: 767px) {
+    width: 80%
+  }
 `;
 
 export const StyledLogo = styled.img`
